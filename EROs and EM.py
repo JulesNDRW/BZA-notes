@@ -1,5 +1,10 @@
 #matlab function inputs
+"""
+faster way to print commands for MATLAB to do elementary row operations.
+creates elementary matrices of any size desired to avoid uneccessary typing and careless mistakes :)
 
+
+"""
 def rowswap(matrix, row1, row2):
     print(f"{matrix}([{row1},{row2}],:) = {matrix}([{row2},{row1}],:)")
 
